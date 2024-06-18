@@ -22,7 +22,6 @@ import testing_Project_01.StoreMenu_Test;
 public class MasterClass_01 {
 
 	ChromeOptions options = new ChromeOptions();
-
 	WebDriver driver = new ChromeDriver();
 
 	Acc_Creation_SignIn accountcreate = new Acc_Creation_SignIn(driver);
@@ -82,14 +81,14 @@ public class MasterClass_01 {
 
 		accountcreate.closingAdPopup_TC4();
 		StoreMenu.StoreMenuWomen_TC5();
-		StoreMenu.Sortbyfunction_TC6();
+		StoreMenu.Sortbyfunction_TC6();      //sort by Function menu
 		StoreMenu.SearchStore_TC7("Neve Studio"); /* input parameter is any product to be searched*/
 	}
 	
 	@Test(priority = 5)
 	public void Application_Testing2() throws InterruptedException, IOException
 	{
-		Username_drpdn.username_dropdown_TC8();
+		Username_drpdn.username_dropdown_TC8(); 
 		Username_drpdn.Enter_Cntct_Info_TC9(); //
 	//	Username_drpdn.Enter_StreetAddress_TC10("HP", "9112345", "jaynagar", "Bangalore", "12345");
 		Username_drpdn.screenshot_TC11();
