@@ -35,7 +35,6 @@ public class Acc_Creation_SignIn {
 	@FindBy	(id="pass") WebElement Password;
 	@FindBy	(xpath="//button[@class='action login primary']/span") WebElement SignInbutton;
 	@FindBy	(xpath="//li[@class='greet welcome']/span") WebElement Welcomeusername;
-	
 	@FindBy (xpath="//nav[@class='navigation']/descendant::li[1]/a/span") WebElement whatsnewmenu;
 	@FindBy (xpath="//div[@class='page-title-wrapper']/h1/span") WebElement whatsnewtitle;
 	@FindBy (xpath="//div[@class='ea-stickybox-hide']") WebElement closex;
@@ -54,7 +53,6 @@ public class Acc_Creation_SignIn {
 	{
 		createanaccountlink.click();
 		Thread.sleep(900);
-		
 		String x=PageTitle.getText();
 		String y = "Create New Customer Account";
 		Assert.assertEquals(x, y);

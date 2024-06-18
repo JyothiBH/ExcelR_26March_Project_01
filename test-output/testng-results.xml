@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="8" passed="8" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-06-18T11:57:21 IST" name="Default suite" finished-at="2024-06-18T11:58:42 IST" duration-ms="81542">
+  <suite started-at="2024-06-18T12:12:26 IST" name="Default suite" finished-at="2024-06-18T12:14:15 IST" duration-ms="109350">
     <groups>
     </groups>
-    <test started-at="2024-06-18T11:57:21 IST" name="Default test" finished-at="2024-06-18T11:58:42 IST" duration-ms="81542">
+    <test started-at="2024-06-18T12:12:26 IST" name="Default test" finished-at="2024-06-18T12:14:15 IST" duration-ms="109350">
       <class name="master_01.MasterClass_01">
-        <test-method signature="launchapp()[pri:1, instance:master_01.MasterClass_01@4c2cc639]" started-at="2024-06-18T11:57:21 IST" name="launchapp" finished-at="2024-06-18T11:57:26 IST" duration-ms="5607" status="PASS">
+        <test-method signature="launchapp()[pri:1, instance:master_01.MasterClass_01@4c2cc639]" started-at="2024-06-18T12:12:26 IST" name="launchapp" finished-at="2024-06-18T12:12:32 IST" duration-ms="6666" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchapp -->
-        <test-method signature="CreatingNewUser(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:master_01.MasterClass_01@4c2cc639]" started-at="2024-06-18T11:57:26 IST" name="CreatingNewUser" data-provider="Testdata2" finished-at="2024-06-18T11:57:26 IST" duration-ms="2" status="PASS">
+        <test-method signature="CreatingNewUser(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:master_01.MasterClass_01@4c2cc639]" started-at="2024-06-18T12:12:32 IST" name="CreatingNewUser" data-provider="Testdata2" finished-at="2024-06-18T12:12:32 IST" duration-ms="3" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -37,7 +37,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CreatingNewUser -->
-        <test-method signature="LoginApp(java.lang.String,java.lang.String)[pri:3, instance:master_01.MasterClass_01@4c2cc639]" started-at="2024-06-18T11:57:26 IST" name="LoginApp" data-provider="testdata1" finished-at="2024-06-18T11:57:35 IST" duration-ms="8427" status="PASS">
+        <test-method signature="LoginApp(java.lang.String,java.lang.String)[pri:3, instance:master_01.MasterClass_01@4c2cc639]" started-at="2024-06-18T12:12:32 IST" name="LoginApp" data-provider="testdata1" finished-at="2024-06-18T12:12:42 IST" duration-ms="9603" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -53,23 +53,23 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LoginApp -->
-        <test-method signature="Application_Testing1()[pri:4, instance:master_01.MasterClass_01@4c2cc639]" started-at="2024-06-18T11:57:35 IST" name="Application_Testing1" finished-at="2024-06-18T11:57:44 IST" duration-ms="9230" status="PASS">
+        <test-method signature="Application_Testing1()[pri:4, instance:master_01.MasterClass_01@4c2cc639]" started-at="2024-06-18T12:12:42 IST" name="Application_Testing1" finished-at="2024-06-18T12:12:52 IST" duration-ms="10013" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Application_Testing1 -->
-        <test-method signature="Application_Testing2()[pri:5, instance:master_01.MasterClass_01@4c2cc639]" started-at="2024-06-18T11:57:44 IST" name="Application_Testing2" finished-at="2024-06-18T11:57:48 IST" duration-ms="3962" status="PASS">
+        <test-method signature="Application_Testing2()[pri:5, instance:master_01.MasterClass_01@4c2cc639]" started-at="2024-06-18T12:12:52 IST" name="Application_Testing2" finished-at="2024-06-18T12:12:56 IST" duration-ms="3953" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Application_Testing2 -->
-        <test-method signature="Application_Testing3()[pri:6, instance:master_01.MasterClass_01@4c2cc639]" started-at="2024-06-18T11:57:48 IST" name="Application_Testing3" finished-at="2024-06-18T11:57:57 IST" duration-ms="8709" status="PASS">
+        <test-method signature="Application_Testing3()[pri:6, instance:master_01.MasterClass_01@4c2cc639]" started-at="2024-06-18T12:12:56 IST" name="Application_Testing3" finished-at="2024-06-18T12:13:05 IST" duration-ms="8691" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Application_Testing3 -->
-        <test-method signature="Application_Testing4()[pri:7, instance:master_01.MasterClass_01@4c2cc639]" started-at="2024-06-18T11:57:57 IST" name="Application_Testing4" finished-at="2024-06-18T11:58:19 IST" duration-ms="22654" status="PASS">
+        <test-method signature="Application_Testing4()[pri:7, instance:master_01.MasterClass_01@4c2cc639]" started-at="2024-06-18T12:13:05 IST" name="Application_Testing4" finished-at="2024-06-18T12:13:27 IST" duration-ms="22612" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Application_Testing4 -->
-        <test-method signature="Application_Testing5()[pri:8, instance:master_01.MasterClass_01@4c2cc639]" started-at="2024-06-18T11:58:19 IST" name="Application_Testing5" finished-at="2024-06-18T11:58:42 IST" duration-ms="22902" status="PASS">
+        <test-method signature="Application_Testing5()[pri:8, instance:master_01.MasterClass_01@4c2cc639]" started-at="2024-06-18T12:13:27 IST" name="Application_Testing5" finished-at="2024-06-18T12:14:15 IST" duration-ms="47749" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Application_Testing5 -->
